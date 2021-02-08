@@ -69,6 +69,7 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
+      person: {},
       items: [
         {
           icon: 'mdi-apps',
@@ -76,9 +77,44 @@ export default {
           to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
+          icon: 'mdi-controller-classic',
+          title: 'Start Game',
+          to: '/start',
+        },
+        {
+          icon: 'mdi-home',
+          title: 'Home',
+          to: '/home',
+        },
+        {
+          icon: 'mdi-car',
+          title: 'Vehicle Shop',
+          to: '/vehicleShop',
+        },
+        {
+          icon: 'mdi-cart',
+          title: 'Shop',
+          to: '/shop',
+        },
+        {
+          icon: 'mdi-briefcase',
+          title: 'Jobs',
+          to: '/jobs',
+        },
+        {
+          icon: 'mdi-school',
+          title: 'School',
+          to: '/school',
+        },
+        {
+          icon: 'mdi-library',
+          title: 'Library',
+          to: '/library',
+        },
+        {
+          icon: 'mdi-weight-lifter',
+          title: 'Gym',
+          to: '/gym',
         },
       ],
       miniVariant: false,
